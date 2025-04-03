@@ -1,0 +1,84 @@
+/* Resetando algumas propriedades padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFD700;
+  }
+  
+  /* Estilo do body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo do header */
+  header {
+    background-color: #2a2a2a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #searchInput {
+    padding: 10px;
+    width: 50%;
+    max-width: 400px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Estilo da contagem de personagens encontrados */
+  .count-display {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  /* Estilo dos cards de personagens */
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .character-card {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    text-align: center;
+  }
+  
+  /* Adiciona cores nas bordas das casas */
+  .character-card.gryffindor {
+    border: 3px solid red;
+  }
+  
+  .character-card.hufflepuff {
+    border: 3px solid yellow;
+  }
+  
+  .character-card.ravenclaw {
+    border: 3px solid blue;
+  }
+  
+  .character-card.slytherin {
+    border: 3px solid green;
+  }
+  
+  .character-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+
+  
